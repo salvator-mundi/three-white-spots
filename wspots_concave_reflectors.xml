@@ -26,7 +26,7 @@
 
 	<medium type="homogeneous" id="medium">
 		<rgb name="sigmaS" value="0,0,0"/>
-		<rgb name="sigmaA" value="3,3,3"/>
+		<rgb name="sigmaA" value="2.5,2.5,2.5"/>
 	</medium>
 
 	<!-- object  -->
