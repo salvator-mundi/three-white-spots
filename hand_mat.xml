@@ -11,10 +11,10 @@ The structure is listed below:
    +- [3.2]a specular surface (mixturebsdf = roughconductor + roughconductor)
 
 The texture files are stored in:
-texture/Hand_3D_SPEC.jpg
-texture/Hand_3D_BUMP.jpg
-texture/Hand_3D_BUMP_CONTRAST.jpg
-texture/Hand_3D_SPEC.jpg
+textures/Hand_3D_SPEC.jpg
+textures/Hand_3D_BUMP.jpg
+textures/Hand_3D_BUMP_CONTRAST.jpg
+textures/Hand_3D_SPEC.jpg
 -->
 
 <scene version="0.5.0">
@@ -22,7 +22,7 @@ texture/Hand_3D_SPEC.jpg
   <!-- [1] hand -->
   <bsdf type="blendbsdf" id="hand_mix">
     <texture name="weight" type="bitmap">
-      <string name="filename" value="texture/Hand_3D_SPEC.jpg"/>
+      <string name="filename" value="textures/Hand_3D_SPEC.jpg"/>
     </texture>
 
     <!-- [2] fingernail -->
@@ -32,7 +32,7 @@ texture/Hand_3D_SPEC.jpg
       <!-- [2.1] color texture -->
       <bsdf type="diffuse">
         <texture name="reflectance" type="bitmap">
-          <string name="filename" value="texture/Hand_3D_COLOR.jpg"/>
+          <string name="filename" value="textures/Hand_3D_COLOR.jpg"/>
         </texture>
       </bsdf>
 
@@ -60,14 +60,14 @@ texture/Hand_3D_SPEC.jpg
       <bsdf type="bumpmap">
         <bsdf type="diffuse">
           <texture name="reflectance" type="bitmap">
-            <string name="filename" value="texture/Hand_3D_COLOR.jpg"/>
+            <string name="filename" value="textures/Hand_3D_COLOR.jpg"/>
           </texture>
         </bsdf>
         <texture type="scale">
           <!--  bump height -->
           <float name="scale" value="0.015"/>
           <texture type="bitmap">
-            <string name="filename" value="texture/Hand_3D_BUMP.jpg"/>
+            <string name="filename" value="textures/Hand_3D_BUMP.jpg"/>
             <string name="filterType" value="trilinear"/>
           </texture>
         </texture>
@@ -76,7 +76,7 @@ texture/Hand_3D_SPEC.jpg
       <!-- [3.2] specular surface -->
       <bsdf type="blendbsdf">
         <texture name="weight" type="bitmap">
-          <string name="filename" value="texture/Hand_3D_BUMP_CONTRAST.jpg"/>
+          <string name="filename" value="textures/Hand_3D_BUMP_CONTRAST.jpg"/>
         </texture>
         <bsdf type="roughconductor">
           <string name="distribution" value="ggx"/>
@@ -97,7 +97,7 @@ texture/Hand_3D_SPEC.jpg
   <bsdf type="bumpmap" id="hand_bump">
     <bsdf type="diffuse">
       <texture name="reflectance" type="bitmap">
-        <string name="filename" value="texture/Hand_3D_COLOR.jpg"/>
+        <string name="filename" value="textures/Hand_3D_COLOR.jpg"/>
         <string name="filterType" value="trilinear"/>
       </texture>
     </bsdf>
@@ -105,7 +105,7 @@ texture/Hand_3D_SPEC.jpg
     <texture type="scale">
       <float name="scale" value="0.1"/>
       <texture type="bitmap">
-        <string name="filename" value="texture/Hand_3D_COLOR.jpg"/>
+        <string name="filename" value="textures/Hand_3D_COLOR.jpg"/>
       </texture>
     </texture>
   </bsdf>
@@ -113,7 +113,7 @@ texture/Hand_3D_SPEC.jpg
   <!-- Hand COLOR -->
   <bsdf type="diffuse" id="hand_color">
     <texture name="reflectance" type="bitmap">
-      <string name="filename" value="texture/Hand_3D_COLOR.jpg"/>
+      <string name="filename" value="textures/Hand_3D_COLOR.jpg"/>
       <string name="filterType" value="trilinear"/>
     </texture>
   </bsdf>

@@ -9,12 +9,12 @@
 		<bsdf type="diffuse">
 			<texture name="reflectance" type="bitmap">
 				<float name="gamma" value="3"/>
-				<string name="filename" value="texture/Salvator_Mundi_modified.jpg"/>
+				<string name="filename" value="textures/Salvator_Mundi_modified.jpg"/>
 			</texture>
 		</bsdf>
 
 		<texture name="opacity" type="bitmap">
-			<string name="filename" value="texture/Salvator_Mundi_mask.jpg"/>
+			<string name="filename" value="textures/Salvator_Mundi_mask.jpg"/>
 		</texture>
 	</bsdf>
 
