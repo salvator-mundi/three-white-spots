@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- This file contains the BSDF configuration for the hand skin.
+<!-- This file contains the BRDF configuration for the hand skin.
 The structure is listed below:
 
 [1]hand (blendbsdf)
