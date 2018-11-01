@@ -15,8 +15,8 @@ Fig 2B	-->  alt_hollow_glass_orb
 Fig 2D	-->  wspots_unrestrained_light_source  
 Fig 2G	-->  wspots_concave_reflectors  
 Fig 2H	-->  alt_solid_calcite_orb_ne   
-		&    alt_solid_calcite_orb_no  
-		&    alt_solid_calcite_orb_birefringence  
+	&    alt_solid_calcite_orb_no  
+	&    alt_solid_calcite_orb_birefringence  
 Fig 2I	-->  alt_paintied_specks  
 
 
