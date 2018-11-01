@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<scene version="0.5.0">
+	<include filename="hand_mat.xml"/>
+	<include filename="lighting.xml"/>
+
+	<!-- BSDF -->
+	<bsdf type="mask" id="salvator_mask">
+		<bsdf type="diffuse">
+			<texture name="reflectance" type="bitmap">
+				<float name="gamma" value="3"/>
+				<string name="filename" value="texture/Salvator_Mundi_modified.jpg"/>
+			</texture>
+		</bsdf>
+
+		<texture name="opacity" type="bitmap">
+			<string name="filename" value="texture/Salvator_Mundi_mask.jpg"/>
+		</texture>
+	</bsdf>
+
+
+	<bsdf type="dielectric" id="dielectric">
+		<!-- Calcite
+			no: 1.658
+			ne: 1.486
+		 -->
+	  <float name="intIOR" value="1.486"/>
+	  <float name="extIOR" value="1.0"/>
+	</bsdf>
+
+	<medium type="homogeneous" id="medium">
+		<rgb name="sigmaS" value="0,0,0"/>
+		<rgb name="sigmaA" value="0.12,0.12,0.12"/>
+	</medium>
+
+	<!-- Objects  -->
+	<shape type="sphere">
+		<float name="radius" value="6.798"/>
+		<ref id="dielectric"/>		
+	</shape>
+
+
+	<shape type="obj" id="theSalvatorMundi">
+		<string name="filename" value="objects/portrait.obj"/>
+		<ref id="salvator_mask"/>
+		<transform name="toWorld">
+		  <translate x="-20" y="21.85" z="14.45"/>
+		</transform>
+	</shape>
+
+	<shape type="obj" id="background">
+		<string name="filename" value="objects/background.obj"/>
+		<bsdf type="diffuse"><srgb name="reflectance" value="#000000"/></bsdf>
+		<transform name="toWorld">
+		  <translate x="-20" y="22.05" z="14.2"/>
+		</transform>
+	</shape>
+
+	<shape type="obj" id="lefthand">
+		<string name="filename" value="objects/lefthand.obj"/>
+		<ref id="hand_mix"/>
+		<transform name="toWorld">
+			<translate x="-34.4268" y="21.90" z="14.4124"/>
+		</transform>
+	</shape>
+
+
+
+	<!--  Camera  -->
+	<sensor type="orthographic" >		
+		<transform name="toWorld">
+			<scale value="22.5"/>
+			<lookat target="0,21.85,14.45" origin="90,21.85,14.45" up="0,1,0"/>
+		</transform>
+
+ 		<film type="hdrfilm">
+			<integer name="height" value="2428"/>
+			<integer name="width" value="1650"/>
+			<integer name="cropOffsetY" value="1750"/>
+			<integer name="cropOffsetX" value="1050"/>
+			<integer name="cropWidth" value="600"/>
+			<integer name="cropHeight" value="600"/>
+
+
+			<rfilter type="gaussian"/>
+			<boolean name="banner" value="false"/>
+		</film>
+
+		<sampler type="independent">
+			<integer name="sampleCount" value="1024"/>
+		</sampler>
+	</sensor>
+
+	<integrator type="volpath"/>
+
+</scene>
