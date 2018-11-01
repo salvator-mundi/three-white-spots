@@ -44,7 +44,6 @@
 		<string name="filename" value="objects/portrait.obj"/>
 		<ref id="salvator_mask"/>
 		<transform name="toWorld">
-			<!-- distance: 20, 30, 40 -->
 		  <translate x="-20" y="21.85" z="14.45"/>
 		</transform>
 	</shape>
@@ -53,7 +52,6 @@
 		<string name="filename" value="objects/background.obj"/>
 		<bsdf type="diffuse"><srgb name="reflectance" value="#000000"/></bsdf>
 		<transform name="toWorld">
-			<!-- distance: 20, 30, 40 -->
 		  <translate x="-20" y="22.05" z="14.2"/>
 		</transform>
 	</shape>
@@ -76,12 +74,6 @@
 		</transform>
 
  		<film type="hdrfilm">
-<!-- 	 	<integer name="height" value="972"/>
-		<integer name="width" value="660"/>  -->
-<!-- 		<integer name="height" value="486"/>
-		<integer name="width" value="330"/>  -->
-		  
-		  
 			<integer name="height" value="2428"/>
 			<integer name="width" value="1650"/>
 			<integer name="cropOffsetY" value="1750"/>
@@ -95,7 +87,7 @@
 		</film>
 
 		<sampler type="independent">
-			<integer name="sampleCount" value="64"/>
+			<integer name="sampleCount" value="1024"/>
 		</sampler>
 	</sensor>
 

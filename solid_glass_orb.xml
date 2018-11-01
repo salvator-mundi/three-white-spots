@@ -18,26 +18,20 @@
 		</texture>
 	</bsdf>
 
-	<bsdf type="thindielectric" id="thindielectric">
-		<float name="intIOR" value="1.51714"/>
-		<float name="extIOR" value="1.0"/>
+	<bsdf type="dielectric" id="dielectric">
+	  <float name="intIOR" value="1.51714"/>
+	  <float name="extIOR" value="1.0"/>
 	</bsdf>
 
 	<medium type="homogeneous" id="medium">
 		<rgb name="sigmaS" value="0,0,0"/>
-		<rgb name="sigmaA" value="3,3,3"/>
+		<rgb name="sigmaA" value="0.08,0.08,0.08"/>
 	</medium>
 
 	<!-- Objects  -->
 	<shape type="sphere">
 		<float name="radius" value="6.798"/>
-		<ref id="thindielectric"/>
-		<ref id="medium" name="interior"/>
-	</shape>
-
-	<shape type="sphere" id="medium_simulate_orb_darkness">
-		<float name="radius" value="6.6620"/>
-		<boolean name="flipNormals" value="true"/>
+		<ref id="dielectric"/>
 		<ref id="medium" name="interior"/>
 	</shape>
 
@@ -45,7 +39,7 @@
 		<string name="filename" value="objects/portrait.obj"/>
 		<ref id="salvator_mask"/>
 		<transform name="toWorld">
-		  <translate x="-30" y="21.85" z="14.45"/>
+		  <translate x="-20" y="21.85" z="14.45"/>
 		</transform>
 	</shape>
 
@@ -53,7 +47,7 @@
 		<string name="filename" value="objects/background.obj"/>
 		<bsdf type="diffuse"><srgb name="reflectance" value="#000000"/></bsdf>
 		<transform name="toWorld">
-		  <translate x="-30" y="22.05" z="14.2"/>
+		  <translate x="-20" y="22.05" z="14.2"/>
 		</transform>
 	</shape>
 
@@ -65,13 +59,6 @@
 		</transform>
 	</shape>
 
-	<shape type="obj" id="painted_dot">
-		<string name="filename" value="objects/pnt_dt.obj"/>
-		<bsdf type="diffuse"><srgb name="reflectance" value="#EEEEEE"/></bsdf>
-	</shape>
-
-
-
 
 
 	<!--  Camera  -->
@@ -81,7 +68,7 @@
 			<lookat target="0,21.85,14.45" origin="90,21.85,14.45" up="0,1,0"/>
 		</transform>
 
- 		<film type="hdrfilm">		  
+ 		<film type="hdrfilm">
 			<integer name="height" value="2428"/>
 			<integer name="width" value="1650"/>
 			<integer name="cropOffsetY" value="1750"/>

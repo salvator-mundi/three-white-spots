@@ -216,14 +216,9 @@
 			<lookat target="0,21.85,14.45" origin="90,21.85,14.45" up="0,1,0"/>
 		</transform>
 
- 		<film type="hdrfilm">
-		  
+ 		<film type="hdrfilm">		  
 			<integer name="height" value="2428"/>
 			<integer name="width" value="1650"/>
-			<integer name="cropOffsetY" value="1750"/>
-			<integer name="cropOffsetX" value="1050"/>
-			<integer name="cropWidth" value="600"/>
-			<integer name="cropHeight" value="600"/>
 
 			<rfilter type="gaussian"/>
 			<boolean name="banner" value="false"/>
