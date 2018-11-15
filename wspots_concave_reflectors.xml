@@ -99,7 +99,7 @@
 	</shape>
 
 	<shape id="A_front_blocker" type="obj">
-		<string name="filename" value="objects/lgblocker0.1.obj"/>
+		<string name="filename" value="objects/lgblocker3.obj"/>
 		<bsdf type="diffuse"><srgb name="reflectance" value="#000000"/></bsdf>
 		<transform name="toWorld">
 			<scale value="2"/>
@@ -145,7 +145,7 @@
 	</shape>
 
 	<shape id="B_front_blocker" type="obj">
-		<string name="filename" value="objects/lgblocker0.1.obj"/>
+		<string name="filename" value="objects/lgblocker3.obj"/>
 		<bsdf type="diffuse"><srgb name="reflectance" value="#000000"/></bsdf>
 		<transform name="toWorld">
 			<scale value="2"/>
@@ -191,7 +191,7 @@
 	</shape>
 
 	<shape id="C_front_blocker" type="obj">
-		<string name="filename" value="objects/lgblocker0.1.obj"/>
+		<string name="filename" value="objects/lgblocker3.obj"/>
 		<bsdf type="diffuse"><srgb name="reflectance" value="#000000"/></bsdf>
 		<transform name="toWorld">
 			<scale value="2"/>
