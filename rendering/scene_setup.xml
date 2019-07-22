@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<scene version="0.5.0">
+<!--+========================================+
+    |           Ambient Light                | 
+    +========================================+-->
+  <emitter type="directional">
+    <spectrum name="irradiance" value="0.3"/>
+    <transform name="toWorld">
+      <rotate x="1" angle="90"/>
+      <rotate x="1" angle="40" />
+      <rotate y="1" angle="90" />
+    </transform>
+  </emitter>   
+
+  <emitter type="directional">
+    <spectrum name="irradiance" value="0.6"/>    
+    <vector name="direction" x="-1" y="0" z="0"/>
+  </emitter>
+
+  <emitter type="constant">
+    <spectrum name="radiance" value="0.02"/>
+  </emitter>
+
+<!--+========================================+
+    |              Key Light                 | 
+    +========================================+-->
+  <include filename="../component/lighting_keylight.xml"/>
+
+
+<!--+========================================+
+    |                BSDF                    | 
+    +========================================+-->
+  <bsdf type="diffuse" id="salvator_color">
+    <texture name="reflectance" type="bitmap">
+      <float name="gamma" value="3"/>
+      <string name="filename" value="../texture/Salvator_Mundi_modified.exr"/>
+    </texture>
+  </bsdf>
+
+  <bsdf type="diffuse" id="hand_color">
+    <texture name="reflectance" type="bitmap">
+      <string name="filename" value="../texture/Hand_3D_COLOR.jpg"/>
+      <string name="filterType" value="trilinear"/>
+    </texture>
+  </bsdf>
+
+  <bsdf type="dielectric" id="dielectric">
+    <float name="intIOR" value="1.51714"/>
+    <float name="extIOR" value="1.0"/>
+    <spectrum name="specularTransmittance" value="0.89"/>
+  </bsdf>
+
+  <bsdf type="thindielectric" id="thindielectric">
+    <float name="intIOR" value="1.51714"/>
+    <float name="extIOR" value="1.0"/>
+    <spectrum name="specularTransmittance" value="0.85"/>
+  </bsdf>
+
+  <medium type="homogeneous" id="medium">
+    <rgb name="sigmaS" value="0,0,0"/>
+    <rgb name="sigmaA" value="1,1,1"/>
+  </medium>
+
+
+<!--+========================================+
+    |              3D Models                 | 
+    +========================================+-->
+  <shape type="obj" id="theSalvatorMundi">
+    <string name="filename" value="../object/portrait.obj"/>
+    <ref id="salvator_color"/>
+    <transform name="toWorld">
+      <translate x="-25" y="22.85" z="14.45"/>
+      <scale value="1.19"/>
+      <translate x="0" y="-4.177565" z="-2.7875"/>
+    </transform>
+  </shape>
+
+  <shape type="rectangle" id="black_background">
+    <transform name="toWorld">
+      <rotate y="1" angle="-90"/>
+      <scale x="1" y="33.5" z="23"/>
+      <translate x="-26" y="22.85" z="14.7"/>
+      <scale value="1.7"/>
+      <translate x="0" y="-4.177565" z="-2.7875"/>
+    </transform>
+  </shape>
+
+  <shape type="obj" id="lefthand">
+    <string name="filename" value="../object/lefthand.obj"/>
+    <ref id="hand_color"/>
+    <transform name="toWorld">
+      <rotate z="1" angle="15"/>
+      <rotate y="1" angle="-9"/>
+    </transform>
+  </shape>
+
+</scene>

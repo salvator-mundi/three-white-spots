@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<scene version="0.5.0">
+<!--+========================================+
+    |                 Camera                 | 
+    +========================================+-->
+	<sensor type="perspective" >
+		<float name="fov" value="21.271"/>		
+		<transform name="toWorld">
+			<lookat target="0,0,0" origin="120,0,0" up="0,1,0"/>
+            <translate x="0" y="23.412312" z="14.34"/>
+		</transform>
+ 		<film type="hdrfilm">	
+			<integer name="height" value="4521"/>
+			<integer name="width" value="3072"/>
+			<integer name="cropOffsetY" value="3300"/>
+			<integer name="cropOffsetX" value="2513"/>
+			<integer name="cropWidth" value="512"/>
+			<integer name="cropHeight" value="512"/>
+
+			<rfilter type="gaussian"/>
+			<boolean name="banner" value="false"/>
+		</film>
+
+		<sampler type="independent">
+			<integer name="sampleCount" value="32"/>
+		</sampler>
+	</sensor>
+
+
+<!--+========================================+
+    |               Integrator               | 
+    +========================================+-->
+	<integrator type="volpath"/>
+
+
+<!--+========================================+
+    |             Scene Setup                | 
+    +========================================+-->
+    <include filename="./scene_setup_position.xml"/>
+
+
+<!--+========================================+
+    |              Orb                       | 
+    +========================================+-->
+	<shape type="sphere" id="external_sphere">
+		<float name="radius" value="6.798"/>
+		<ref id="dielectric"/>
+	</shape>
+
+	<!--1%:6.7300;	2%:6.6620;	3%:6.5941;	5%:6.4581 -->
+	<shape type="sphere" id="interior_sphere">
+		<float name="radius" value="6.6620"/>
+		<boolean name="flipNormals" value="true"/>
+		<ref id="dielectric"/>
+	</shape>
+
+</scene>

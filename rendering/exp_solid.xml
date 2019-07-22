@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<scene version="0.5.0">
+
+
+	<!-- BSDF -->
+	<bsdf type="thindielectric" id="thindielectric">
+		<float name="intIOR" value="1.5"/>
+		<float name="extIOR" value="1.0"/>
+	</bsdf>
+
+	<bsdf type="dielectric" id="dielectric">
+	  <float name="intIOR" value="1.6"/>
+	  <float name="extIOR" value="1.0"/>
+	</bsdf>
+
+
+
+	<!-- Objects  -->
+	<shape type="sphere">
+		<float name="radius" value="6.798"/>
+		<ref id="dielectric"/>		
+	</shape>
+
+	<shape type="rectangle" id="line_middle">
+		<bsdf type="diffuse">
+			<srgb name="reflectance" value="#000000"/>
+		</bsdf>
+		<transform name="toWorld">
+			<rotate y="1" angle="-90"/>
+			<scale x="1" y="0.1" z="30"/>
+			<translate x="-15" y="0" z="0"/>
+			<rotate x="1" angle="45"/>
+		</transform>
+	</shape>
+
+	<shape type="rectangle" id="line_top">
+		<bsdf type="diffuse">
+			<srgb name="reflectance" value="#000000"/>
+		</bsdf>
+		<transform name="toWorld">
+			<rotate y="1" angle="-90"/>
+			<scale x="1" y="0.1" z="30"/>
+			<translate x="-15" y="0" z="0"/>
+			<rotate x="1" angle="45"/>
+			<translate x="0" y="2" z="0"/>
+		</transform>
+	</shape>
+
+	<shape type="rectangle" id="line_bottom">
+		<bsdf type="diffuse">
+			<srgb name="reflectance" value="#000000"/>
+		</bsdf>
+		<transform name="toWorld">
+			<rotate y="1" angle="-90"/>
+			<scale x="1" y="0.1" z="30"/>
+			<translate x="-15" y="0" z="0"/>
+			<rotate x="1" angle="45"/>
+			<translate x="0" y="-2" z="0"/>
+		</transform>
+	</shape>
+
+
+
+	<shape type="rectangle" id="bg">
+		<bsdf type="diffuse">
+			<texture name="reflectance" type="gridtexture">
+				<spectrum name="color0" value="0.4"/>
+				<spectrum name="color1" value="0.8"/>
+				<float name="uscale" value="20"/>
+				<float name="vscale" value="20"/>
+				<float name="lineWidth" value="0.02"/>
+			</texture>
+		</bsdf>
+		<transform name="toWorld">
+			<rotate y="1" angle="90"/>
+			<scale value="10"/>
+			<translate x="-15.1" y="0" z="0"/>
+		</transform>
+	</shape>
+
+
+<!-- 	<shape type="rectangle" id="background">
+		<bsdf type="diffuse">
+			<texture type="bitmap" name="reflectance">
+				<string name="filename" value="bg_parallel.png"/>
+			</texture>
+		</bsdf>
+		<transform name="toWorld">
+			<scale value="18"/>
+			<rotate y="1" angle="90"/>
+			<rotate x="1" angle="90"/>
+			<translate x="-15" y="0" z="0"/>
+		</transform>
+	</shape> -->
+
+
+
+
+	<!--  Camera  -->
+	<!-- <sensor type="orthographic"> -->
+	<sensor type="perspective">
+		<float name="fov" value="10"/>
+		
+		<transform name="toWorld">
+			<!-- <scale value="7.8"/> -->
+			<lookat target="0,0,0" origin="90,0,0" up="0,1,0"/>
+		</transform>
+
+ 		<film type="hdrfilm">
+	 	<integer name="height" value="512"/>
+		<integer name="width" value="512"/> 
+		  
+		  
+
+			<rfilter type="gaussian"/>
+			<boolean name="banner" value="false"/>
+		</film>
+
+		<sampler type="independent">
+			<integer name="sampleCount" value="64"/>
+		</sampler>
+	</sensor>
+
+	<integrator type="volpath"/>
+
+</scene>

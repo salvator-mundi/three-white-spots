@@ -1,0 +1,903 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<scene version="0.5.0">
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="55.000000" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="56.578947" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="58.157895" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="59.736842" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="61.315789" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="62.894737" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="64.473684" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="66.052632" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="67.631579" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="69.210526" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="70.789474" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="72.368421" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="73.947368" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="75.526316" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="77.105263" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="78.684211" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="80.263158" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="81.842105" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="83.421053" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="32.500000" />
+<rotate y="1" angle="85.000000" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="55.000000" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="56.578947" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="58.157895" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="59.736842" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="61.315789" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="62.894737" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="64.473684" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="66.052632" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="67.631579" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="69.210526" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="70.789474" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="72.368421" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="73.947368" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="75.526316" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="77.105263" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="78.684211" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="80.263158" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="81.842105" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="83.421053" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="35.500000" />
+<rotate y="1" angle="85.000000" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="55.000000" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="56.578947" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="58.157895" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="59.736842" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="61.315789" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="62.894737" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="64.473684" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="66.052632" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="67.631579" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="69.210526" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="70.789474" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="72.368421" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="73.947368" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="75.526316" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="77.105263" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="78.684211" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="80.263158" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="81.842105" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="83.421053" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="38.500000" />
+<rotate y="1" angle="85.000000" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="55.000000" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="56.578947" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="58.157895" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="59.736842" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="61.315789" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="62.894737" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="64.473684" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="66.052632" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="67.631579" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="69.210526" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="70.789474" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="72.368421" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="73.947368" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="75.526316" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="77.105263" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="78.684211" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="80.263158" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="81.842105" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="83.421053" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="41.500000" />
+<rotate y="1" angle="85.000000" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="55.000000" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="56.578947" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="58.157895" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="59.736842" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="61.315789" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="62.894737" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="64.473684" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="66.052632" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="67.631579" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="69.210526" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="70.789474" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="72.368421" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="73.947368" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="75.526316" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="77.105263" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="78.684211" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="80.263158" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="81.842105" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="83.421053" />
+</transform>
+</emitter>
+
+<emitter type="directional">
+<spectrum name="irradiance" value="0.0416"/>
+<transform name="toWorld">
+<rotate x="1" angle="90"/>
+<rotate x="1" angle="44.500000" />
+<rotate y="1" angle="85.000000" />
+</transform>
+</emitter>
+</scene>

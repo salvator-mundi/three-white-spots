@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<scene version="0.5.0">
+<!--+========================================+
+    |                 Camera                 | 
+    +========================================+-->
+	<sensor type="perspective" >
+		<float name="focusDistance" value="133.663"/>
+		<float name="fov" value="80"/>
+		<string name="fovAxis" value="x"/>
+		<transform name="toWorld">
+
+			<lookat target="80.4552, 6.97531, 51.7104" origin="81.2566, 6.79923, 52.282" up="0.143352, 0.984376, 0.102244"/>
+		</transform>
+ 		<film type="hdrfilm">	
+		 	<integer name="height" value="512"/>
+			<integer name="width" value="1024"/> 
+
+<!-- 			<integer name="height" value="1024"/>
+			<integer name="width" value="2048"/> -->
+
+			<rfilter type="gaussian"/>
+			<boolean name="banner" value="false"/>
+		</film>
+
+		<sampler type="independent">
+			<integer name="sampleCount" value="32"/>
+		</sampler>
+	</sensor>
+
+
+<!--+========================================+
+    |               Integrator               | 
+    +========================================+-->
+    <!-- <integrator type="volpath"/> -->
+	<integrator type="sppm">
+		<integer name="maxPasses" value="5"/>
+	</integrator>
+
+
+<!--+========================================+
+    |             Scene Setup                | 
+    +========================================+-->
+    <include filename="./scene_setup.xml"/>
+
+
+<!--+========================================+
+    |              Orb                       | 
+    +========================================+-->
+	<shape type="sphere" id="external_sphere">
+		<float name="radius" value="6.798"/>
+		<ref id="dielectric"/>
+	</shape>
+
+	<!--1%:6.7300;	2%:6.6620;	3%:6.5941;	5%:6.4581 -->
+	<shape type="sphere" id="interior_sphere">
+		<float name="radius" value="6.6620"/>
+		<boolean name="flipNormals" value="true"/>
+		<ref id="dielectric"/>
+	</shape>
+
+
+	<shape type="obj" id="camera_model">
+		<string name="filename" value="../object/camera.obj"/>
+		<transform name="toWorld">
+			<rotate z="1" angle="180"/>
+			<rotate x="1" angle="180"/>
+
+			<translate x="60" y="0" z="0"/>
+		</transform>
+		<bsdf type="twosided">
+			<bsdf type="diffuse">
+				<srgb name="reflectance" value="#FFFFFF"/>
+			</bsdf>
+			<bsdf type="diffuse">
+				<srgb name="reflectance" value="#FFFFFF"/>
+			</bsdf>
+		</bsdf>
+	</shape>
+
+</scene>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#    Spherical coordinate and Cartesian coordiante
+#
+#  (theta, phi)
+#
+#                ^ (0, phi)
+#                | +Y
+#                |   
+#  (90,0)        |
+#    <___________|____________
+#      +Z       /        (90,180)
+#              /
+#             /
+#    (90,90) /  +X
+#           v  
+#
+#    x = r * sin(theta) * sin(phi)
+#    y = r * cos(theta)
+#    z = r * sin(theta) * cos(phi)
+-->
+
+<scene version="0.5.0">
+<!--+========================================+
+    |              Key Light Blocker         | 
+    +========================================+-->
+  <shape id="keylight_blocker" type="disk">
+    <transform name="toWorld">
+      <scale value="7"/>
+      <rotate angle="180" y="1"/>
+      <translate x="0" y="0" z="100"/>
+      <rotate angle="-90" x="1"/>
+      <rotate angle="49.8" x="1"/>
+      <rotate angle="79.4" y="1"/>
+    </transform>
+  </shape>
+
+<!--+========================================+
+    |              Fill Light                | 
+    +========================================+-->
+  <shape id="filllight_source" type="sphere">
+    <emitter type="area">
+      <spectrum name="radiance" value="10000"/>
+    </emitter>
+    <transform name="toWorld">
+      <scale value="2"/>
+      <translate x="-4.5" y="145" z="-3.3"/>
+    </transform>
+  </shape>
+
+  <shape id="filllight_cylinder_baffle" type="cylinder">
+    <bsdf type="diffuse"><srgb name="reflectance" value="#000000"/></bsdf>
+    <point name="p1" x="0" y="0" z="100"/>
+    <float name="radius" value="2.1"/>
+    <transform name="toWorld">
+      <rotate x="1" angle="-90"/>
+      <translate x="-4.5" y="60" z="-3.3"/>
+    </transform>
+  </shape>  
+
+  <shape id="filllight_blocker" type="obj">
+    <string name="filename" value="./object/filllight_blocker.obj"/>
+    <bsdf type="diffuse">
+      <srgb name="reflectance" value="#000000"/>
+    </bsdf>
+    <transform name="toWorld">
+      <translate x="-4.5" y="60" z="-3.3"/>
+    </transform>
+  </shape>
+
+  <shape id="filllight_blocker2" type="obj">
+    <string name="filename" value="./object/filllight_blocker.obj"/>
+    <bsdf type="diffuse">
+      <srgb name="reflectance" value="#000000"/>
+    </bsdf>
+    <transform name="toWorld">
+      <translate x="-3.8" y="59.5" z="-2.7"/>
+    </transform>
+  </shape>
+
+</scene>
